@@ -45,7 +45,7 @@ function animateBars(moves) {
     showBars(move);
     setTimeout(function() {
         animateBars(moves);
-    },0);
+    },200);
 }
 
 function bubbleSort(array) {
